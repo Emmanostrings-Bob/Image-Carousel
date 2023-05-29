@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image fade">
+            <img src="img/pexels-amirhossein-hasani-16546739.jpg" alt="amir guitar" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-harry-shelton-7239910.jpg" alt="harry guitar" width="100%" height="80%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-karolina-grabowska-4471277.jpg" alt="karolina guitar" width="100%" height="80%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-lachlan-ross-5967794.jpg" alt="ross guitar" width="100%" height="80%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-markus-spiske-3806767.jpg" alt="spiske guitar" width="100%" height="80%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-paul-rod-15602520.jpg" alt="paul guitar" width="100% height="80%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-pixabay-417451.jpg" alt="pixabay guitar" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/pexels-randy-tahtinen-632305.jpg" alt="randy guitar" width="100%">
+        </div>
+        <i id="prev"
+        onclick="show_image(-1)" class="fas fa-chevron-left"></i>
+        <i id="next" 
+        onclick="show_image(1)" class="fas fa-chevron-right"></i>
+    </div>
+
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
